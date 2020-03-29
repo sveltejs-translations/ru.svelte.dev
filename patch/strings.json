@@ -1,0 +1,253 @@
+{
+    "src/routes/index.svelte":{
+
+        "The magical disappearing UI framework":
+        "Магически исчезающий UI-фреймворк",
+
+        "Cybernetically enhanced web apps":
+        "Кибернетически улучшенные Web-приложения",
+
+        "Svelte components are built on top of HTML. Just add data.":
+        "Компоненты Svelte построены поверх языка HTML с возможностью добавлять данные.",
+
+        "CSS is component-scoped by default — no more style collisions or specificity wars. Or you can":
+        "CSS изолируется внутри компонентов — больше никаких конфликтов стилей и борьбы спецификаций. Впрочем, вы можете",
+
+        "use your favourite CSS-in-JS library":
+        "использовать свою любимую библиотеку CSS-in-JS",
+
+        "Trigger efficient, granular updates by assigning to local variables. The compiler does the rest.":
+        "Запускайте эффективные точечные обновления, просто присваивая новые значения переменным. Компилятор сделает всю магию.",
+
+        "Build beautiful UIs with a powerful, performant transition engine built right into the framework.":
+        "Создавайте красивые интерфейсы с помощью мощного движка переходов, встроенного прямо в фреймворк.",
+
+        "Who's using Svelte":
+        "Кто использует Svelte",
+
+        "<h3>Contributors</h3>":
+        "<h3>Контрибуторы</h3>",
+
+        "Svelte is free and open source software, made possible by the work of dozens of volunteers":
+        "Svelte бесплатен, имеет открытый исходный код и живёт благодаря работе десятков волонтёров",
+
+        "Join us":
+        "Присоединяйся к нам",
+
+        "Write less code":
+        "Меньше кода",
+        
+        ">learn more<":
+        ">узнать больше<",
+
+        "Build boilerplate-free components using languages you already know — HTML, CSS and JavaScript":
+        "Создавайте компоненты без излишних конструкций на языках, которые вы уже знаете — HTML, CSS и JavaScript",
+
+        "No virtual DOM":
+        "Без виртуального DOM",
+
+        "Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and stays fast":
+        "Svelte компилирует ваш код в оптимальный ванильный JS — приложения запускаются быстро и остаются быстрыми",
+
+        "Truly reactive":
+        "Честная реактивность",
+
+        "No more complex state management libraries — Svelte brings reactivity to JavaScript itself":
+        "Больше никаких сложных библиотек управления состоянием — Svelte делает реактивным сам JavaScript",
+
+        "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the <em>browser</em>, Svelte shifts that work into a <em>compile step</em> that happens when you build your app.":
+        "Svelte — это принципиально новый подход к созданию пользовательских интерфейсов. Когда традиционные фреймворки, такие как React и Vue, выполняют основную часть своей работы в <em>браузере</em>, Svelte переносит эту работу на <em>этап компиляции</em>, который происходит при сборке приложения.",
+
+        "Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.":
+        "Вместо использования таких тяжелых приёмов, как сравнение состояний виртуального DOM, Svelte пишет код, который точечно обновляет DOM при изменении состояния вашего приложения.",
+
+        "Read the introductory blog post":
+        "Прочтите вводную статью в блоге",
+
+        "to learn more.":
+        ", чтобы узнать больше.",
+
+        "See the":
+        "Подробности ищите в статье",
+
+        "quickstart guide":
+        "Быстрый Старт ",
+
+        "for more information.":
+        ".",
+
+        "Learn Svelte":
+        "Изучить Svelte"
+
+    },
+
+    "src/routes/_layout.svelte":{
+
+        "<Nav {segment}":
+        "<Nav home=\"Главная\" home_title=\"Домашняя страница\" {segment}",
+
+        ">Tutorial<":
+        ">Учебник<",
+
+        ">Examples<":
+        ">Примеры<",
+
+        ">Blog<":
+        ">Блог<",
+
+        "Discord Chat":
+        "Чат Discord",
+
+        "https://sapper.svelte.dev":
+        "https://ru.sapper.svelte.dev",
+
+        "external=\"chat\"":
+        "external=\"tg://resolve?domain=sveltejs\""
+
+    },
+
+    "src/routes/tutorial/[slug]/index.svelte": {
+
+        ">Next<":
+        ">Далее<",
+
+        "'Reset' : 'Show me'":
+        "'Сброс' : 'Покажи мне'",
+
+        "Edit this chapter":
+        "Редактировать эту главу",
+
+        "sveltejs/svelte/tree/master/site/content/tutorial":
+        "AlexxNB/svelte3-translation-ru/tree/master/repositories/sveltejs/svelte/site/content/tutorial",
+
+        "'tutorial', 'input', 'output'":
+        "'урок', 'исходник', 'результат'"
+
+    },
+
+    "src/routes/docs/index.svelte": {
+
+        "<Docs {sections}/>":
+        "<Docs owner=\"AlexxNB\" project=\"svelte3-translation-ru\" path=\"/repositories/sveltejs/svelte/site/content\" edit_title=\"редактировать эту главу\" {sections}/>"
+
+    },
+
+    "src/routes/examples/index.svelte": {
+
+        ">Examples<":
+        ">Примеры<",
+
+        "'index', 'input', 'output'":
+        "'список', 'исходник', 'результат'"
+
+    },
+
+    "src/routes/blog/index.svelte": {
+
+        "Read the article":
+        "Читать статью",
+
+        "Latest post":
+        "Последний пост",
+
+        "Older posts":
+        "Более ранние посты"
+
+    },
+
+    "src/routes/repl/[id]/index.svelte": {
+        "Loading...":
+        "Загрузка..."
+
+    },
+
+    "src/routes/apps/index.svelte": {
+
+        "Your apps":
+        "Мои приложения",
+
+        "<span>updated":
+        "<span>изменено",
+
+        "Next page...":
+        "Следующая страница...",
+
+        "Please <a on:click|preventDefault={login} href=\"auth/login\">log in</a> to see your saved apps.":
+        "<a on:click|preventDefault={login} href=\"auth/login\">Войдите</a>, чтобы увидеть свои приложения.",
+
+        "log out":
+        "Выйти"
+
+    },
+
+    "src/routes/repl/[id]/_components/AppControls/index.svelte": {
+
+        "It looks like you're offline! Find the internet and try again":
+        "Похоже у вас нет соединения с интернетом! Покдлючитесь к сети и попробуйте снова.",
+
+        "fullscreen editor":
+        "на полный экран",
+
+        "download zip file":
+        "скачать zip-архив",
+
+        "title=\"fork\"":
+        "title=\"сделать форк\"",
+
+        "title=\"save\"":
+        "title=\"сохранить\"",
+
+        "Log in to save":
+        "Войти и сохранить"
+
+    },
+
+    "src/routes/repl/[id]/_components/AppControls/UserMenu.svelte": {
+
+        "Your saved apps":
+        "Мои приложения",
+
+        "Log out":
+        "Выйти"
+
+    },
+
+    "src/routes/_error.svelte": {
+
+        "Yikes!":
+        "Бдыщь!",
+
+        "Please try reloading the page.":
+        "Попробуйте перезагрузить страницу",
+
+        "It looks like you're offline":
+        "Похоже, что нет соединения с сетью",
+
+        "Reload the page once you've found the internet":
+        "Перезагрузите страницу, когда у вас появится интернет",
+
+        "Encountered a {status} error":
+        "Обнаружена ошибка №{status}",
+
+        "If the error persists, please drop by <a href=\"chat\">Discord chatroom</a> and let us know, or raise an issue on <a href=\"https://github.com/sveltejs/svelte\">GitHub</a>. Thanks!":
+        "Если ошибка не исчезнет, сообщите об этом в <a href=\"https://t.me/sveltejs\">Telegram канал русского сообщества</a>. Спасибо!"
+
+    },
+
+    "src/template.html": {
+
+        "</head>":
+        "\n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\"); ym(53400580, \"init\", { clickmap:true, trackLinks:true, accurateTrackBounce:true }); </script> <noscript><div><img src=\"https://mc.yandex.ru/watch/53400580\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n <!-- /Yandex.Metrika counter -->\n</head>"
+
+    },
+
+    "src/components/Repl/InputOutputToggle.svelte": {
+
+        ">input<":
+        ">исходник<",
+
+        ">output<":
+        ">результат<"
+
+    }
+}
